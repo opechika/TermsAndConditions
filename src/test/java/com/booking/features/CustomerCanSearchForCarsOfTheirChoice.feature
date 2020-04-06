@@ -12,8 +12,8 @@ Feature: Search
     Then the results of the rentals cars are displayed
     Examples:
       |Location  |Pick-up Date |Drop off Date|
-      |Manchester|16 Feb 2020  |19 Feb 2020  |
-      |EC1A 2AL  |24 Feb 2020  |29 Feb 2020  |
+      |Manchester|16 May 2020  |19 May 2020  |
+      |EC1A 2AL  |24 May 2020  |29 May 2020  |
 
   Scenario: Customer can not leave search field  bar empty
       Given I am on rentalcars homepage
